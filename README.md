@@ -9,7 +9,7 @@ Write a command that prints out the string “hello, world”. Extra credit: As 
 
 print("Hello, World!")
 
-Second option
+__Second option__
 
 greeting = "Hello, World"
 
