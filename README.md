@@ -25,18 +25,39 @@ What’s the command to list all the files (and directories) on your Desktop dir
 ensure you are in the desktop directory before using the command 
 the command is - ls
 
+if you are not in the desktop directory use the comand 'pwd' to check the current path to the directory you are in 
+check if the desktop directory exist in the current directory by listing all directories with the comand 'ls'
+change from the current directory to the desktop directory by using the below comand 'cd' followed by the path to the desktop directoy e.g 
+cd \Users\username\Desktop
 
+you can use the comand cd .. to move back up one directory if you navigate to wrong directory 
+
+'username being my username on my PC'
 ## 4: Making directories
 Make the directory bootcamp on your Desktop and, within it, the directory labs (i.e., ~/Desktop/bootcamp/labs).
 
+mkdir \Users\username\Desktop\bootcamp
+mkdir \Users\username\Desktop\bootcamp\labs
+
+'username being my username on my PC'
 ## 5: Navigating directories
 Change to your Desktop, then change to bootcamp directory, and then the lab directory.
 
+cd \Users\username\Desktop
+cd \Users\username\Desktop\bootcamp
+cd \Users\username\Desktop\bootcamp\labs
+
+'username being my username on my PC'
 ## 6: Creating files
 Create an empty file called file01 in the lab directory.
 
+cat >file1.txt
+press exit to return to comand
+
 ## 7: Deleting directories
 What is the command used to remove a directory named food and everything inside it.
+
+rm -r food
 
 # Part C - Github
 ##8: Download the GitHub desktop application
