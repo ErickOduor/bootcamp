@@ -9,8 +9,11 @@ Write a command that prints out the string “hello, world”. Extra credit: As 
 
 print("Hello, World!")
 
-> greeting = "Hello, World"
-> print(greeting)
+Second option
+
+greeting = "Hello, World"
+
+print(greeting)
 
 ## 2: Cleaning up
 Clear the contents of the current tab.
