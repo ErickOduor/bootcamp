@@ -9,8 +9,8 @@ Write a command that prints out the string “hello, world”. Extra credit: As 
 
 print("Hello, World!")
 
-greeting = "Hello, World"
-print(greeting)
+> greeting = "Hello, World"
+> print(greeting)
 
 ## 2: Cleaning up
 Clear the contents of the current tab.
@@ -60,7 +60,7 @@ What is the command used to remove a directory named food and everything inside 
 rm -r food
 
 # Part C - Github
-##8: Download the GitHub desktop application
+## 8: Download the GitHub desktop application
 Download the GitHub desktop application.
 
 ## 9: Pushing work to GitHub
