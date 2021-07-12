@@ -21,8 +21,15 @@ else:
 a. j = 0
     for i in range(0, 10):
         j += i
+value of J is 45
+
 b. j = 1
     for i in range(0, 10):
         j += j
+
+value of J is 1024
+
 c. for j in range(0, 10):
     j += j
+
+value of J is 18
