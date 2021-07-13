@@ -51,3 +51,4 @@ for i in range (0, 16):
     f = f + g
     g = f - g
     stdio.writeIn(f)
+
