@@ -1,6 +1,8 @@
-n = 123456789
-m = 0
-while n != 0:
-    m = (10 * m) + (n % 10)
-    n //= 10
-    print(n)
+import stdio
+f = 0
+g = 1
+for i in range (0, 16):
+    f = f + g
+    g = f - g
+    stdio.writeln(f)
+    print(f)
