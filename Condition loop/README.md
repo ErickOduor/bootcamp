@@ -43,3 +43,11 @@ while n != 0:
 
 the value of m is 987654321
 the value of n is 0
+
+7. what does this code write?
+f = 0
+g = 1
+for i in range (0, 16):
+    f = f + g
+    g = f - g
+    stdio.writeIn(f)
