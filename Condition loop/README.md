@@ -52,6 +52,8 @@ for i in range (0, 16):
     g = f - g  
     stdio.writeIn(f)  
 
+Answer: NameError: name 'stdio' is not defined
+
 8. Bonus Question: is there an example for when the following for and while loops are not equivalent?
 for variable in range(start, stop):  
     statement 1  
