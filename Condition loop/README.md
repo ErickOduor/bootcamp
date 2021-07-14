@@ -52,5 +52,20 @@ for i in range (0, 16):
     g = f - g  
     stdio.writeIn(f)  
 
-8. Bonus Question
+8. Bonus Question: is there an example for when the following for and while loops are not equivalent?
+for variable in range(start, stop):  
+    statement 1  
+    statement 2  
+    ....  
+      
+    variable = start  
+    while variable < stop
+        statement1  
+        statement2  
+        ....  
+        variable += 1  
+    
+    Answer : No  
+
+
     
