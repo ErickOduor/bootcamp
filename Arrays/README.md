@@ -10,6 +10,13 @@ Answer: Q1_array_1000.py code in the repository. trying to access the a[1000] gi
     a = []
     for i in range(10):
         a[i] = i * i
+Answer:
+- a has been initialised as a list  
+- a[i] = i * i is not how you add items to a list 
+- the program should be as below  
+a = []  
+for i in range(1, 10):  
+    a.append(i*i)  
 
 3. what does the following code fragment write?  
     a = stdarray.createID(10, 0)
